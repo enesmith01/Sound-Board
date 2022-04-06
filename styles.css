@@ -1,0 +1,98 @@
+/* Your Awesome Sng */
+
+/* source for animation background https://codbodio/P1N2O/pen/pyBNzX */
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body {
+  background: linear-gradient(
+    170deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(15, 15, 162, 1) 51%,
+    rgba(1, 47, 56, 1) 100%
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+div {
+  background-image: url("https://assets.codepen.io/6987293/Group+5.svg");
+  cursor: pointer;
+  width: 187.96px;
+  min-height: 103px;
+}
+
+main {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 50px;
+}
+
+kbd{
+  font-family: 'Caveat';
+font-style: normal;
+font-weight: 700;
+}
+
+.content{
+  position: absolute;
+    padding-top: 40px;
+  padding-bottom: -40px;
+
+
+font-family: 'Caveat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 45px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+h1{
+  font-family: 'Fredericka the Great';
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 49px;
+
+color: #FFFFFF;
+
+}
+/*button
+
+button {
+  background-image: url("https://assets.codepen.io/6987293/Group+5.svg");
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 187.96px;
+  height: 143px;
+}
+
+*/
